@@ -5,7 +5,7 @@ import express from "express";
 const app = express();
 
 //* creating http server
-const server = HTMLOutputElement.createServer(app);
+const server = http.createServer(app);
 
 server.listen(8080, ()=>{
     console.log(`Server is running at http://localhost:8080`);
